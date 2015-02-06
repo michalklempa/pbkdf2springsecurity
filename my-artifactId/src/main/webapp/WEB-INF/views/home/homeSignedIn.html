@@ -19,6 +19,10 @@
     <p>
         Welcome to the Spring MVC Quickstart application!
     </p>
+	<p>
+	  Welcome to the Spring MVC Quickstart application!
+	  Your password hash is: <div th:replace="fragments/alert :: alert (type=success, message=${passwordhash})"/>
+	</p>    
 </div>
 </body>
 </html>
